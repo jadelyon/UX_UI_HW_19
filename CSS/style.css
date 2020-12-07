@@ -1,0 +1,125 @@
+
+/* header and footer */
+
+.inline-block {
+    display: inline-block;
+    vertical-align: center;
+    padding-right: 5%;
+}
+
+nav {
+    width: 75%;
+}
+
+ul {
+    width: 75%;
+    margin-left: left;
+}
+
+.heroImg {
+    display: grid;
+    grid-template-columns: 500px 500px;
+}
+
+#heroImage {
+    height: 250px;
+    padding-top: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ddae5c;
+}
+
+
+section {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+/* fonts */
+
+h1 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: normal;
+    font-size: 48px;
+    color: #a63c24;
+}
+
+h3 {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    color: black;
+}
+
+p {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+}
+
+li {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+}
+
+/* skills and projects content */
+
+button {
+    color: white;
+    background-color: #3fa680;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    border: none;
+    padding: 8px 18px;
+}
+
+.flexContainer {
+    display: grid;
+    grid-template-columns: 350px 350px;
+}
+
+div.flexContainer {
+    width: 33%;
+    padding: 1%;
+    margin-bottom: 50px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 450px 450px;
+}
+
+.projectCards {
+    padding-bottom: 200px;
+}
+
+/* media query */
+
+@media only screen and (max-width: 600) {
+ 
+    .flexContainer {
+        display: column;
+        grid-template-columns: auto auto;
+        width: 100%;
+    }
+
+    .workGrid {
+        display: column;
+        grid-template-columns: auto;
+        width: 100%;
+    }
+    
+}
