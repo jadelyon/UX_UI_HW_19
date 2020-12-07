@@ -1,30 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4YD0J28DBK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-4YD0J28DBK');
-</script>
-<!-- Hotjar Tracking Code for https://jadelyon.github.io/UX_UI_HW_18/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2140567,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
-    <title>Document</title>
+    <title>Jade Lyon's Portfolio</title>
 </head>
 <body>
     <header>
@@ -46,7 +26,7 @@
                 </p>
                 <button>DOWNLOAD RESUME</button>
             </div>
-            <div><img src="Images/headshot copy.jpg" id="heroImage"></div>
+            <div><img src="Images/headshot.png" id="heroImage"></div>
         </div>
    
     </section>
@@ -54,31 +34,25 @@
     <section class="myProjects">
         <h1>Projects</h1>
         <div class="workGrid">
-            <div class="projectCards">
-                <div><img src="Images/drinksmith.png"></div>
-                <div>
+                <div class="projects"><img src="Images/drinksmith.png"></div>
+                <div class="projects">
                     <h3>DRINKSMITH</h3>
                     <p>A hypothetical phone app created for the at-home drink maker. One primary feature included storing ingredients to the users’ “shelf” to populate drink suggestions.
                     </p>
                     <button>VIEW PROJECT</button>
                 </div>
-            </div>
-            <div class="projectCards">
-                <div>
+                <div class="projects">
                     <h3>ENERGY.GOV</h3>
                     <p>A case study to improve the usability as well as reimagine the aesthetics of the U.S. Department of Energy government website www.energy.gov.</p>
                     <button>VIEW PROJECT</button>
                 </div>
-                <div><img src="Images/energygov.png"></div>
-            </div>
-            <div class="projectCards">
-                <div><img src="Images/optimeal.png"></div>
-                <div>
+                <div class="projects"><img src="Images/energygov.png"></div>
+                <div class="projects"><img src="Images/optimeal.png"></div>
+                <div class="projects">
                     <h3>OPTIMEAL</h3>
                     <p>A meal planning start-up that allows individuals to find recipes and easily plan a shopping list that is within their budget as well as other constraints they set.</p>
                     <button>VIEW PROJECT</button>
                 </div>
-            </div>
         </div>
     </section>
 
@@ -106,10 +80,14 @@
 
     <section class="myContactInfo">
         <h1>Connect</h1>
-        <div class="">
-
+        <div class="contactMe">
+            <img src="Images/email copy.png" id="contactButton">
+            <img src="Images/linkedin copy.png" id="contactButton">
+            <img src="Images/facebook-circular-logo copy.png" id="contactButton">
+            <img src="Images/phone-call copy.png" id="contactButton">
         </div>
     </section>
 
 </body>
+<script src="js/index.js"></script>
 </html>
